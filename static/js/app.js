@@ -25,9 +25,6 @@ function buildCharts(id) {
         var otuLabels = sampleData.otu_labels.slice(0, 10);
         // console.log(`OTU Labels: ${otuLabels}`)
 
-        
-
-
         var trace1 = {
             x: sampleValues,
             y: otuIdsPrint,
